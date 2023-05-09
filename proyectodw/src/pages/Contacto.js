@@ -1,7 +1,7 @@
 export const Contacto=()=>{
     return (
         <div>
-            Estoy en Contacto
+            estoy en hambur
         </div>
     )
 }

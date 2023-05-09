@@ -12,7 +12,7 @@ export const Navbar=() =>{
                     <div class="container-logo">
 
                         
-                     <h2><span>  Jhosua </span> González <span>.</span></h2>
+                     <h2><span>  logo </span> comidas <span>.</span></h2>
                     </div>
 
 
