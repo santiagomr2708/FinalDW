@@ -1,28 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import { Navbar } from "./componentes/Navbar";
+import {BrowserRouter as Router,Route,Routes} from 'react-router-dom'
+import {Inicio} from "./pages/Inicio"
+import {Empresa} from "./pages/Empresa"
+import {Contacto} from "./pages/Contacto"
+import {Conocenos} from "./pages/Conosenos"
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <ul class="Contenedor_1">
-        <ul class="contenedor_hijo">
-        <h1>logo</h1>
-        </ul>
 
-        <ul class="contenedor_2">
-
-          <a href=''>Hamburguesas</a>
-          <a href=''>Hamburguesas</a>
-          <a href=''>Hamburguesas</a>
-          <a href=''>Hamburguesas</a>
-
-
-        </ul>
-
-      </ul>
-
+      
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path= '/' element={<Inicio/>}/>
+          <Route path= '/empresa' element={<Empresa/>}/>
+          <Route path= '/contacto' element={<Contacto/>}/>
+          <Route path= '/conocenos' element={<Conocenos/>}/>
+        </Routes>
+        
+      </Router>
     </div>
   );
 }
 
-export default App;
