@@ -1,7 +1,24 @@
 export const Conocenos=()=>{
     return (
         <div>
-           que mas
+
+
+
+<h1>hola</h1>
+           
+
+
+
+
+
+
+
+
+
+
+
+
+           
         </div>
     )
 }
