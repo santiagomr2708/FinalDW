@@ -1,7 +1,9 @@
+import "./Contacto.css";
 export const Contacto=()=>{
     return (
         <div>
-         hola
+         hola soy hamburguesas
+
         </div>
     )
 }
