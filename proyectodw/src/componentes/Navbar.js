@@ -12,23 +12,25 @@ export const Navbar=() =>{
                     <div class="container-logo">
 
                         
-                     <h2><span>  logo </span> comidas <span>.</span></h2>
+                     <h2><span>  logo </span> comidas </h2>
                     </div>
 
 
                     <ul class="links">   
             
-                        <Link class="link" to="/">Inicio</Link>
+                    <li class="link">  <a> <Link   to="/">Inicio</Link> </a> </li>
                     
                     
-                        <Link class="link" to="/Empresa">Carne</Link>
+                       <li class="link"> <a><Link class="link" to="/Empresa">Carne</Link> </a></li> 
                     
                 
-                        <Link class="link" to="/Contacto">Hamburguesa</Link>
+                       <li class="link"> <a> <Link class="link" to="/Contacto">Hamburguesa</Link></a></li> 
                     
                     
-                        <Link  class="link"  to="/Conocenos">Bebidas</Link>
-                    
+                       <li class="link"> <a><Link  class="link"  to="/Conocenos">Bebidas</Link></a></li> 
+
+                   
+                     
                     </ul>
 
                     <div class="toggle">

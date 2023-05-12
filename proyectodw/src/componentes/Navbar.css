@@ -1,71 +1,66 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-
 }
 
-body{
-    background: #ff7300;
+body {
+    background: #092236;
     overflow: hidden;
-    
 }
 
-nav{
-    background: #4d2400;
+nav {
+    background: #021222;
     height: 80px;
     position: relative;
-
 }
 
-.container{
+.container {
     margin: auto;
     display: flex;
     justify-content: space-between;
-    max-width: 1000px;
-    line-height: 80px;
+    max-width: 1500px;
+    line-height: 70px;
     z-index: 100;
 }
 
-.container-logo{
+.container-logo {
     margin-left: 20px;
     z-index: 100;
     cursor: pointer;
 }
-.container-logo h2{
-    color:   #ff7300;
+
+.container-logo h2 {
+    color: #95bdd8;
     font-weight: 300;
     font-size: 35px;
     letter-spacing: 2px;
 }
 
-.container-logo h2 span{
+.container-logo h2 span {
+    color: #0590ec;
     font-weight: 700;
-    color:   #b04f00;
 }
-
-.links {
-    display: flex;
-    justify-content: space-between;
-}
-
 
 .links .link {
+    display: inline-block;
+}
+
+.links .link a {
     text-decoration: none;
-    color:   #ff7300;
+    color: #d1faf4;
     font-size: 20px;
     margin: 0 25px;
     letter-spacing: 3px;
     transition: .3s;
 }
 
-.links .link:hover{
-    color:   #eb6a0076;
+.links .link a:hover {
+    color: #487abb;
 }
 
-.toggle{
-  
+.toggle {
     color: #d1faf4;
     margin-right: 20px;
     font-size: 30px;
@@ -73,17 +68,13 @@ nav{
     cursor: pointer;
     transition: .3s;
     display: none;
-  
 }
 
-
-.rotate{
-    transform:rotate(180deg);
+.rotate {
+    transform: rotate(180deg);
 }
 
-
-
-@media screen and (max-width: 858px){
+@media screen and (max-width: 1050px){
     .toggle {
         display: inline-block;
     }
@@ -97,10 +88,9 @@ nav{
         overflow: hidden;
         height: calc(100vh - 80px);
         width: 100%;
-    
+        z-index: -1;
+        top: -100vh;
         transition: .5s;
-
-        
     }
 
     .active {
@@ -111,18 +101,4 @@ nav{
         background: #051c38;
     }
     
-    .container-logo h2{
-        font-size: 20px;
-    }
-
-    .container-logo  h2{
-         
-            writing-mode: vertical-rl;
-            text-orientation: upright;
-            margin-top: 160%; 
-          
-        
-    }
-
-  
 }

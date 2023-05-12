@@ -9,15 +9,6 @@ export const Conocenos=()=>{
 
 
 
-
-
-
-
-
-
-
-
-
            
         </div>
     )
