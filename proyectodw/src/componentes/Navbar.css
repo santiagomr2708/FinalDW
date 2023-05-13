@@ -84,6 +84,7 @@ nav {
         display: flex;
         flex-direction: column;
         background: #021222;
+       
         text-align: center;
         overflow: hidden;
         height: calc(100vh - 80px);
