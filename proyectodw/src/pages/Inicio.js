@@ -1,3 +1,4 @@
+import "./Inicio.css";
 export const Inicio=()=>{
     return(
         <div>
