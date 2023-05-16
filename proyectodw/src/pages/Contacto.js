@@ -1,7 +1,12 @@
 import "./Contacto.css";
 export const Contacto=()=>{
     return (
-        <div>
+       <div>
+            
+
+
+        
+            
          hola soy hamburguesas
 
         </div>

@@ -1,41 +1,44 @@
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import './Navbar.css';
 
+export const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
 
-import "./Navbar.css";
-import {Link} from 'react-router-dom'
-export const Navbar=() =>{
-    return(
-        <div>
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
 
-            <nav>
-            <ul class="container">
-               
-                    <div class="container-logo">
+  return (
+    <div>
+      <nav>
+        <ul className="container">
+          <div className="container-logo">
+            <h2>
+              <span>logo</span> comidas
+            </h2>
+          </div>
 
-                        
-                     <h2><span>  logo </span> comidas <span>.</span></h2>
-                    </div>
+          <ul className={`links ${isOpen ? 'active' : ''}`}>
+            <li className="link">
+              <Link to="/">Inicio</Link>
+            </li>
+            <li className="link">
+              <Link to="/Empresa">Carne</Link>
+            </li>
+            <li className="link">
+              <Link to="/Contacto">Hamburguesa</Link>
+            </li>
+            <li className="link">
+              <Link to="/Conocenos">Bebidas</Link>
+            </li>
+          </ul>
 
-
-                    <ul class="links">   
-            
-                        <Link class="link" to="/">Inicio</Link>
-                    
-                    
-                        <Link class="link" to="/Empresa">Carne</Link>
-                    
-                
-                        <Link class="link" to="/Contacto">Hamburguesa</Link>
-                    
-                    
-                        <Link  class="link"  to="/Conocenos">Bebidas</Link>
-                    
-                    </ul>
-
-                    <div class="toggle">
-                        |||
-                    </div>
-            </ul>
-            </nav>
-        </div>
-    )
-}   
+          <div className="toggle" onClick={toggleMenu}>
+            |||
+          </div>
+        </ul>
+      </nav>
+    </div>
+  );
+};

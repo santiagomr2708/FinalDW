@@ -10,15 +10,6 @@ export const Conocenos=()=>{
 
 
 
-
-
-
-
-
-
-
-
-
            
         </div>
     )
