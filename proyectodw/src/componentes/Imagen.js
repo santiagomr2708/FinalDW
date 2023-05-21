@@ -1,12 +1,10 @@
 import React from 'react'
-
-export const Imagen = (props) => {
+import './Imagen.css'
+export const Imagen = ({imageUrl, descripcion}) => {
   return (
     <div>
-        <h1>
-            {props.Titulo}
-        </h1>
-        {props.ancho}
+        <h1 className='titulo'>{descripcion}</h1>
+        <img src = {imageUrl} alt = 'imagen'/>
     </div>
-  )
-}
+  );
+};

@@ -1,16 +1,13 @@
+import React from "react";
 import "./Conosenos.css";
+import { Funciones3 } from '../componentes/Funciones';
+
 export const Conocenos=()=>{
     return (
         <div>
 
-
-
-<h1>hola soy bebidas</h1>
-           
-
-
-
-           
+            <Funciones3 />
+  
         </div>
     )
 }

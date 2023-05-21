@@ -29,6 +29,12 @@ nav {
     margin-left: 20px;
     z-index: 100;
     cursor: pointer;
+
+}
+
+.logo {
+    width: 20px;
+    height: auto;
 }
 
 .container-logo h2 {

@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import logo from '../../src/imgs/JS.png';
+import { Imagen } from './Imagen';
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,9 +16,7 @@ export const Navbar = () => {
       <nav>
         <ul className="container">
           <div className="container-logo">
-            <h2>
-              <span>logo</span> comidas
-            </h2>
+              <Imagen className="logo" descripcion='' imageUrl={logo} />
           </div>
 
           <ul className={`links ${isOpen ? 'active' : ''}`}>
