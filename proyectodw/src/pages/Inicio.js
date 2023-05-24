@@ -21,16 +21,16 @@ export const Inicio = () => {
     <div>
 
 <ul className="Contenedor">
-        <a id="maps" href="">
+        <a id="maps" href="https://www.google.com/maps/place/Fundaci%C3%B3n+Caminos+-+La+Naranja+mec%C3%A1nica/@6.283115,-75.5394985,20z/data=!4m6!3m5!1s0x8e4428b1e2a18ad3:0xb9545c95934ffa12!8m2!3d6.2830183!4d-75.5393039!16s%2Fg%2F11gg65n311?hl=es">
           Maps
         </a>
-        <a id="azul" href="">
+        <a id="azul" href="https://www.facebook.com/">
           Facebook
         </a>
-        <a id="rosa" href="">
+        <a id="rosa" href="https://www.instagram.com/">
           Instagram
         </a>
-        <a id="verde" href="">
+        <a id="verde" href="https://wa.me/573052911727">
           Wattsapp
         </a>
        
