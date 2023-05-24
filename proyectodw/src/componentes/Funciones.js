@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import "./Imagen.css";
+
 //carnes
 import carne1 from '../../src/imgs/1.jpg';
 import carne2 from '../../src/imgs/2.jpg';
@@ -45,9 +47,7 @@ export const Funciones = () => {
 
   return (
     <div>
-      <h1>
-        <samp>Carnes</samp>
-      </h1>
+      
 
       {isFulImgVisible && (
         <div className="ful-img" id="fulImgBox">
@@ -56,13 +56,11 @@ export const Funciones = () => {
         </div>
       )}
 
-      <h1>
-        <span>Image Gallery</span>
-      </h1>
+      
 
       <div className="img-gallery">
         <Imagen imageUrl={carne1} onClick={() => openFulImg(carne1)} alt="" />
-        <Imagen imageUrl={carne2} onClick={() => openFulImg(carne2)} alt="" />
+        <Imagen imageUrl={carne2} onClick={() => openFulImg(carne2) } alt="" />
         <Imagen imageUrl={carne3} onClick={() => openFulImg(carne3)} alt="" />
         <Imagen imageUrl={carne4} onClick={() => openFulImg(carne4)} alt="" />
         <Imagen imageUrl={carne5} onClick={() => openFulImg(carne5)} alt="" />
@@ -90,10 +88,7 @@ export const Funciones2 = () => {
   
     return (
       <div>
-        <h1>
-          <samp>Hamburguesas</samp>
-        </h1>
-  
+       
         {isFulImgVisible && (
           <div className="ful-img" id="fulImgBox">
             <img src={fulImgSrc} id="fulImg" alt="" />
@@ -101,9 +96,7 @@ export const Funciones2 = () => {
           </div>
         )}
   
-        <h1>
-          <span>Image Gallery</span>
-        </h1>
+      
   
         <div className="img-gallery">
           <Imagen imageUrl={burger1} onClick={() => openFulImg(burger1)} alt="" />
@@ -135,9 +128,7 @@ export const Funciones2 = () => {
   
     return (
       <div>
-        <h1>
-          <samp>Bebidas</samp>
-        </h1>
+        
   
         {isFulImgVisible && (
           <div className="ful-img" id="fulImgBox">
@@ -146,9 +137,7 @@ export const Funciones2 = () => {
           </div>
         )}
   
-        <h1>
-          <span>Image Gallery</span>
-        </h1>
+       
   
         <div className="img-gallery">
           <Imagen imageUrl={bebida1} onClick={() => openFulImg(bebida1)} alt="" />
