@@ -21,7 +21,7 @@ export const Navbar = () => {
 
           <ul className={`links ${isOpen ? 'active' : ''}`}>
             <li className="link">
-              <Link to="/">Inicio</Link>
+              <Link to="/">Informacion</Link>
             </li>
             <li className="link">
               <Link to="/Empresa">Carne</Link>
@@ -32,6 +32,10 @@ export const Navbar = () => {
             <li className="link">
               <Link to="/Conocenos">Bebidas</Link>
             </li>
+
+            
+
+
           </ul>
 
           <div className="toggle" onClick={toggleMenu}>

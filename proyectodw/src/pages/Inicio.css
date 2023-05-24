@@ -1,0 +1,140 @@
+
+
+.Contenedor{
+   
+    height: 6cm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    background: hsl(205, 84%, 10%);
+   
+    
+}
+
+
+a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+
+#maps{
+    color: rgb(210, 188, 155);
+}
+
+#azul{
+    color: rgb(9, 9, 142);
+}
+
+#rosa{
+    color: rgb(218, 102, 141);
+}
+
+#verde{
+    color: rgb(2, 86, 2);
+}
+
+#somos{
+    color: rgb(9, 92, 92);
+}
+.hijo1{
+    
+    display: flex;
+    align-items: center;
+    height: 9cm;
+    margin: 16px;
+    
+    
+}
+
+
+
+.Contenedor2{
+    border: 1px solid  black;
+    background-color: green;
+    height: 8cm;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+margin: 10px;
+ border-radius: 20px;
+ font-size: 13px;
+    
+    
+}
+
+a:hover{
+    font-size: 34px;
+}
+
+#h22{
+    color:  blanchedalmond;
+}
+
+.josu{
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+
+}
+#butt{
+    border-radius: 10px;
+    width: 3cm;
+     background-color:  rgb(207, 162, 95);
+}
+#butt:hover{
+    
+    background-color:  rgb(220, 193, 152);
+}
+li{
+    font-size: 40px;
+    list-style-type: none;
+    margin-right: 70px;
+    color: rgb(25, 107, 98);
+}
+#h33{
+    margin-right:30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color: antiquewhite;
+
+}
+@media screen and (max-width: 1285px) {
+    .Contenedor {
+      flex-direction: column;
+    }
+
+    a{
+        font-size: 25px;
+    }
+
+    a:hover{
+        font-size: 28px;
+    }
+  
+    .hijo1 {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      height: auto;
+    }
+  
+    .Contenedor2 {
+      flex-direction: column;
+    }
+
+    p{
+        font-size: 13px;
+    }
+    .Contenedor2{
+        height: 19cm;
+    }
+  }
+
+
+
+
+ 
