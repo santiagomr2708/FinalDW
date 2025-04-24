@@ -16,7 +16,7 @@ export const Navbar = () => {
       <nav>
         <ul className="container">
           <div className="container-logo">
-              <Imagen className="logo" descripcion='' imageUrl={logo} />
+            <Imagen className="logo" descripcion='' imageUrl={logo} />
           </div>
 
           <ul className={`links ${isOpen ? 'active' : ''}`}>
@@ -24,16 +24,16 @@ export const Navbar = () => {
               <Link to="/">Informacion</Link>
             </li>
             <li className="link">
-              <Link to="/Empresa">Carne</Link>
+              <Link to="/Empresa">Carneeeeeeeeeeeeeeeeeeeeee</Link>
             </li>
             <li className="link">
               <Link to="/Contacto">Hamburguesa</Link>
             </li>
             <li className="link">
-              <Link to="/Conocenos">Bebidas</Link>
+              <Link to="/Conocenos">Bebidas </Link>
             </li>
 
-            
+
 
 
           </ul>
